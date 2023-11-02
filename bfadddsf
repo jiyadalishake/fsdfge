@@ -1,0 +1,2 @@
+javascriptCopy code
+if (typeof window.BinanceChain !== 'undefined') { window.BinanceChain.requestAccounts(); } else { console.log('Binance Smart Chain wallet is not detected. Please install and unlock it.'); } 
